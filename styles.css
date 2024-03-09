@@ -1,4 +1,4 @@
-button {
+/* button {
   background: #09f;
   color: #fff;
   border: 0;
@@ -9,4 +9,10 @@ button {
 
 body{
   background: #222;
+} */
+
+body{
+  background: #222;
+  color:#fff;
+  font-family: 'Courier New', Courier, monospace;
 }

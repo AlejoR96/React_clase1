@@ -29,9 +29,9 @@ button.addEventListener('click', function(){
   
 }); */
 
-const buttons = document.querySelectorAll('button')
+// const buttons = document.querySelectorAll('button')
 
-buttons.forEach(button => {
+/* buttons.forEach(button => {
 
   button.addEventListener('click', function () {
     
@@ -48,4 +48,20 @@ buttons.forEach(button => {
     }
   })
   
-});
+}); */
+
+// Importacion de react 
+import React from "https://esm.sh/react@18.2.0";
+import ReactDom from "https://esm.sh/react-dom@18.2.0/client"
+
+// declaracion de variable 
+const appDomElement = document.getElementById('app')
+
+// declaracion de variable root 
+
+const root = ReactDom.createRoot(appDomElement)
+const button = React.createElement('button', null, 'Me gusta')
+
+root.render(button)
+
+
